@@ -104,7 +104,7 @@ function App() {
         <header className="mb-8 flex items-center gap-3">
           <span className="text-3xl">📋</span>
           <h2 className="text-2xl font-bold text-gray-800 tracking-tight">
-            Tugasku: <span className="font-medium text-gray-500">Manajemen Tugas Sederhana</span>
+            Tugasku: <span className="font-medium text-gray-500">Manajemen Tugas</span>
           </h2>
         </header>
 

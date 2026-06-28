@@ -1,0 +1,31 @@
+## 🤖 AI Usage Log
+
+### 1. Prompt yang Saya Tanyakan ke AI
+
+- "Bagaimana cara melakukan instalasi proyek _frontend_ baru menggunakan React Vite (`npm create vite@latest`) dan mengonfigurasi _framework_ Tailwind CSS di dalamnya?"
+- "Bagaimana cara menyusun struktur folder _frontend_ dan membuat komponen React UI seperti `TaskForm.jsx`, `TaskFilter.jsx`, dan `TaskItem.jsx`?"
+- "Bagaimana cara mengatasi _error_ `'conda' is not recognized` dan `CondaHTTPError` di terminal Windows saat mencoba menyiapkan _environment_ untuk sisi backend?"
+- "Bagaimana cara memulihkan modul `pip` yang hilang di Python utama lewat terminal menggunakan perintah `curl [https://bootstrap.pypa.io/get-pip.py](https://bootstrap.pypa.io/get-pip.py) -o get-pip.py`?"
+- "Bagaimana cara membangun server backend API CRUD dengan FastAPI dan menghubungkannya ke database MySQL XAMPP menggunakan ORM SQLAlchemy?"
+- "Bagaimana cara mengaktifkan CORS di FastAPI agar aplikasi _frontend_ React (port 5173) bisa berkomunikasi melakukan `fetch` data ke _backend_ (port 8000)?"
+- "Bagaimana cara memperbaiki sinkronisasi status data antara MySQL (0/1), Pydantic backend, dan state React?"
+- "Bagaimana cara mengubah nama kolom database dari `is_completed` menjadi `status`, serta menambahkan kolom _timestamp_ `created_at` dan `updated_at` secara otomatis menggunakan SQLAlchemy?"
+- "Bagaimana cara membuat _virtual environment_ (`venv`) lokal di dalam folder backend, mengaktifkannya, dan menginstal seluruh dependencies?"
+
+### 2. Output dari AI
+
+AI memberikan solusi terintegrasi berupa:
+
+- Panduan instalasi dan manajemen dependensi menggunakan npm (Vite, Tailwind CSS) dan pip (FastAPI, SQLAlchemy, PyMySQL).
+- Langkah perbaikan lingkungan Python Windows untuk memulihkan modul `pip` global yang terhapus.
+- Kode program siap pakai untuk backend Python (`database.py` dan `main.py`) serta komponen frontend React (`App.jsx`, `TaskItem.jsx`, dan `TaskFilter.jsx`) yang saling terhubung lewat REST API.
+
+### 3. Yang Saya Ubah / Modifikasi dari Kode AI
+
+- \*\*Mengubah nama kolom database dari is_completed menjadi status agar sesuai dengan rancangan tabel saya.
+- \*\*Menambahkan kolom created_at dan updated_at di backend untuk mencatat waktu otomatis di MySQL.
+- Menyesuaikan logika filter dan tombol di file App.jsx serta TaskItem.jsx agar data tidak terbalik saat diklik.
+
+### 4. Apakah Anda Memahami Semua Kode yang Dihasilkan AI?
+
+- Saya baru memahami sebagian saja, terutama pada bagian alur logika pembuatan sistem. Untuk kode frontend, backend FastAPI dan konfigurasi query database (SQLAlchemy), saya masih perlu banyak belajar dan mencari tahu lebih dalam lagi secara mandiri.
