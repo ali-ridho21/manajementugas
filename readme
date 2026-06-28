@@ -1,0 +1,30 @@
+🗄️ Langkah 1: Nyalakan XAMPP (MySQL)
+Sebelum menyentuh terminal, pastikan database tempat menyimpan data sudah hidup.
+
+Buka aplikasi XAMPP Control Panel di laptop Anda.
+
+Klik tombol Start pada modul Apache dan MySQL sampai indikatornya berubah menjadi warna hijau.
+
+📂 Langkah 2: Buka Terminal dan Masuk ke Folder Backend
+Buka proyek Anda di VS Code.
+
+Buka terminal baru di VS Code (Ctrl + ~ atau lewat menu atas Terminal -> New Terminal).
+
+Pastikan posisi terminal Anda sudah berada di dalam folder backend. Jika posisi terminal masih di folder utama, masuk dengan perintah:
+
+Bash
+cd D:\manajementugas\backend
+🏃‍♂️ Langkah 3: Jalankan Server Backend
+Karena kemarin kita sudah sukses memulihkan pip global pada Python 3.12 Anda, Anda tidak perlu mengaktifkan virtual environment (venv/conda) lagi. Cukup langsung ketik perintah resmi ini untuk menyalakan servernya:
+
+Bash
+python -m uvicorn main:app --reload
+🔍 Cara Mengecek Jika Sudah Berhasil
+Setelah menekan Enter, tunggu 2-3 detik. Jika terminal Anda menampilkan teks hijau seperti di bawah ini, berarti backend Anda sudah resmi aktif dan siap digunakan:
+
+Plaintext
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Application startup complete.
+💡 Langkah Selanjutnya: Tinggal buka satu terminal baru lagi di VS Code, masuk ke folder frontend (cd D:\manajementugas\frontend), lalu jalankan npm run dev untuk menyalakan tampilan aplikasinya!
+
+
