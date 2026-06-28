@@ -83,15 +83,14 @@ function App() {
   };
 
   // Logika Filter Tampilan yang Akurat
+  // Logika Filter Tampilan menggunakan field 'status'
   const filteredTasks = tasks.filter(task => {
     if (filter === 'Belum Selesai') {
-      // Tugas BELUM selesai jika nilainya false atau angka 0
-      return task.is_completed === false || task.is_completed === 0;
+      return task.status === false || task.status === 0;
     }
     
     if (filter === 'Selesai') {
-      // Tugas SUDAH selesai jika nilainya true atau angka 1
-      return task.is_completed === true || task.is_completed === 1;
+      return task.status === true || task.status === 1;
     }
     
     return true; // Menampilkan 'Semua'
