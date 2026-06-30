@@ -15,7 +15,10 @@ Pastikan posisi terminal Anda sudah berada di dalam folder backend. Jika posisi 
 Bash
 cd D:\manajementugas\backend
 🏃‍♂️ Langkah 3: Jalankan Server Backend
-Karena kemarin kita sudah sukses memulihkan pip global pada Python 3.12 Anda, Anda tidak perlu mengaktifkan virtual environment (venv/conda) lagi. Cukup langsung ketik perintah resmi ini untuk menyalakan servernya:
+
+Lalu mengaktifkan virtual environment (venv/conda)
+Bash
+env-backend\Scripts\activate
 
 Bash
 python -m uvicorn main:app --reload
